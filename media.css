@@ -1,0 +1,41 @@
+@media (max-width:1080px){
+    .first-section{
+        flex-direction: column;
+        gap: -50px;
+        padding: 0px 0px 0px 0px;
+    }
+    .first-left{
+        width: 100%;
+        height: 90vh;
+    }
+    .first-right{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    
+}
+@media (max-width:610px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-block-start: auto;
+    }
+.first-section{
+    padding: 10px 20px 0px 20px ;
+}
+.num-andmore{
+
+    display: none;
+}
+
+.searchbar input{
+    padding-left: 20px;
+}
+.ham-logo{
+    margin-left: 0px;
+
+}
+}

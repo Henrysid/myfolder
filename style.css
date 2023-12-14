@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(51, 49, 49);
+    height: 60px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    
+}
+.ham-logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 50px;
+
+
+}
+.ham-logo i{
+    font-size: 24px;
+}
+.logo{
+    font-size: xx-large;
+}
+.num-andmore{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    gap: 50px;
+
+    
+}
+.num-andmore i{
+    color: white;
+}
+/* =============================================================  */
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.searchbar input{
+    width: 75%;
+    height: 62px;
+    font-size: 18px;
+    padding-left: 100px;
+    border: 1px solid black;
+    border-right: none;
+
+
+}
+.searchbar button{
+    height: 62px;
+    width: 18%;
+    background-color: #09757A;
+    color: white;
+    border: 0.5px;
+    border-left: none;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.searchbar button:hover{
+    background-color: rgb(20, 156, 156);
+    transition: 0.9s;
+}
+/* -----------------------------------------------  */
+
+.first-section{
+    padding: 20px 80px 10px 80px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 50px;
+
+}
+
+.first-left{
+    display: flex;
+    flex-direction: column;
+    background: url(3829b733-f4d9-4e84-bec1-bc632593e484.png);
+    height: 70vh;
+    width: 70%;
+    gap: 12px;
+    padding: 3.5%;
+
+}
+#btn1{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.first-section h1{
+    font-size: 45px;
+    font-weight: 1000;
+}
+.first-right{
+    padding-top: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#btn2{
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#btn2:hover{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    transition: 0.6s;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+#btn1:hover{
+    border: 1px solid black;
+    width: 160px;
+    height: 50px;
+    background-color: white;
+    text-decoration: underline;
+    color:black;
+    transition: 0.6s;
+    border-radius: 5px;
+}
+/* ---------------------------------------------------------------  */
+.second-section{
+    padding: 8%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.second-section h1{
+    font-size: 3.5rem;
+}
+.second-section h2{
+    font-size: 2.5rem;
+}
+.second-section h4{
+    font-size: 1.2rem;
+}
+.second-section .left{
+    text-align: start;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.second-section .right{
+    text-align: start;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+#large-button{
+    padding: 15px ;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    width: 32%;
+    border-radius: 5px;
+
+}
+#large-button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+}
+.left-right{
+    display: flex;
+    gap: 7%
+}
+/* -------------------------------------------------------  */
+.third-section{
+    background-image: url(mrq-Guide-IN-PK-Suraiya-desktop.webp);
+    background-size: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.cont{
+    text-align: start;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 5%;
+    
+}
+.cont h1{
+    font-size: 3.5rem;
+}
+/* ==================================================================== */
+.disclaimer{
+    padding: 5%;
+}
